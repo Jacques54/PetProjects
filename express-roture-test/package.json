@@ -1,0 +1,6 @@
+{
+  "devDependencies": {
+    "express": "^4.13.4",
+    "jasmine-node": "^1.14.5"
+  }
+}

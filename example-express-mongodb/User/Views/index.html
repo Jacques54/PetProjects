@@ -1,0 +1,21 @@
+<html>
+<head>
+  <title>Users</title>
+</head>
+<body>
+  <a id ='btnRemoveAllUsers'>remove all users</a>
+  <label>Users:</label>
+  <ul id="lstUsers"></ul>
+  <label>New User Name: </label>
+  <input id="txtNewUserName" />
+  <button id="btnSave">Save</button>
+  <label id="lblErrorMessage"></label>
+</body>
+<script src="/lib/jquery.min.js"></script>
+<script src="/lib/lodash.min.js"></script>
+<script src="/lib/delta.js"></script>
+<script src="/User/Scripts/presenter.js"></script>
+<script>
+  createUserPresenter();
+</script>
+</html>
